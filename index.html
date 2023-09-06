@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="app.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="main">
+        <input id="input_one" type="text" placeholder="0">
+        <input id="input_two" type="text" placeholder="0">
+        <input id="output">
+        <button class="button" onclick="clearall()">AC</button>
+        <button class="button" onclick="clear1()">cl</button>
+        <button class="button">%</button>
+        <button class="button" onclick="updateOperator(this)">/</button>
+        <button class="button" onclick="appendValue(this)">7</button>
+        <button class="button" onclick="appendValue(this)">8</button>
+        <button class="button" onclick="appendValue(this)">9</button>
+        <button class="button" onclick="updateOperator(this)">*</button>
+        <button class="button" onclick="appendValue(this)">4</button>
+        <button class="button" onclick="appendValue(this)">5</button>
+        <button class="button" onclick="appendValue(this)">6</button>
+        <button class="button" onclick="updateOperator(this)">-</button>
+        <button class="button" onclick="appendValue(this)">1</button>
+        <button class="button" onclick="appendValue(this)">2</button>
+        <button class="button" onclick="appendValue(this)">3</button>
+        <button class="button" onclick="updateOperator(this)">+</button>
+        <button class="button1" onclick="appendValue(this)">0</button>
+        <button class="button">.</button>
+        <button class="button" onclick="calculateValue()">=</button>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.main{
+    width: 18%;
+    margin: auto;
+    border: 1px solid black;
+ }
+ .button{
+    border-radius: 48%;
+    height: 36px;
+    width: 23%;
+ }
+ .button1{
+    width: 48%;
+    border-radius:35% ;
+    height:36px ;
+ }
